@@ -4,21 +4,21 @@ import takeRandomNum from '../random.js';
 const gistGames = 'What is the result of the expression?';
 
 function сonstructionCalc(operand1, randomOperator, operand2) {
-  let correctAnswers = 0;
+  let counter = 0;
   switch (randomOperator) {
     case '+':
-      correctAnswers = operand1 + operand2;
+      counter = operand1 + operand2;
       break;
     case '-':
-      correctAnswers = operand1 - operand2;
+      counter = operand1 - operand2;
       break;
     case '*':
-      correctAnswers = operand1 * operand2;
+      counter = operand1 * operand2;
       break;
     default:
   }
-  correctAnswers = correctAnswers.toString();
-  return correctAnswers;
+  counter = counter.toString();
+  return counter;
 }
 
 const brainCalc = () => {
