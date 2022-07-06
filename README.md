@@ -4,3 +4,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/cdce4f5fb9bd2e662bf0/maintainability)](https://codeclimate.com/github/rusmurs/frontend-project-lvl1/maintainability)
 [![asciicast](https://asciinema.org/a/sgi0HUqt7TESFaMdmD8mhgVD1.svg)](https://asciinema.org/a/sgi0HUqt7TESFaMdmD8mhgVD1)
 [![asciicast](https://asciinema.org/a/tAzAfZYqAgjDa9dkR27EbH8Uy.svg)](https://asciinema.org/a/tAzAfZYqAgjDa9dkR27EbH8Uy)
+[![asciicast](https://asciinema.org/a/NdGDBpM4QkpPq4ykJBl8FZbQU.svg)](https://asciinema.org/a/NdGDBpM4QkpPq4ykJBl8FZbQU)
