@@ -3,7 +3,7 @@ import takeRandomNum from '../random.js';
 
 const gistGames = 'What is the result of the expression?';
 
-function сonstructionCalc(operand1, randomOperator, operand2) {
+const сonstructionCalc = (operand1, randomOperator, operand2) => {
   let counter = 0;
   switch (randomOperator) {
     case '+':
@@ -19,9 +19,9 @@ function сonstructionCalc(operand1, randomOperator, operand2) {
   }
   counter = counter.toString();
   return counter;
-}
+};
 
-const brainCalc = () => {
+function brainCalc() {
   const operand1 = takeRandomNum(0, 10);
   const operand2 = takeRandomNum(0, 10);
   const operators = ['+', '-', '*'];
@@ -30,7 +30,7 @@ const brainCalc = () => {
 
   const correctAnswers = сonstructionCalc(operand1, randomOperator, operand2);
   return [randomExpression, correctAnswers];
-};
+}
 
 const beginningBraincalc = () => {
   foundationGames(gistGames, brainCalc);

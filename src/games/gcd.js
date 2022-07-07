@@ -11,9 +11,9 @@ const сonstructionNod = (operand1, operand2) => {
   return counter.toString();
 };
 
-function gcd() {
-  const operand1 = takeRandomNum(1, 10);
-  const operand2 = takeRandomNum(1, 10);
+function brainGcd() {
+  const operand1 = takeRandomNum(1, 20);
+  const operand2 = takeRandomNum(1, 20);
 
   const randomExpression = `${operand1} ${operand2}`;
   const correctAnswers = сonstructionNod(operand1, operand2);
@@ -22,8 +22,8 @@ function gcd() {
 }
 
 const beginningBrainGcd = () => {
-  foundationGames(gistGames, gcd);
+  foundationGames(gistGames, brainGcd);
 };
 
-export { gcd };
+export { brainGcd };
 export default beginningBrainGcd;
