@@ -11,9 +11,7 @@ function brainEven() {
   return [randomNumber, questionsAndAnswers];
 }
 
-const beginningBrainEvenGame = () => {
-  foundationGames(gistGames, brainEven);
-};
+const beginningBrainEvenGame = () => foundationGames(gistGames, brainEven);
 
 export { brainEven };
 export default beginningBrainEvenGame;

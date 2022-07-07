@@ -32,9 +32,7 @@ function brainCalc() {
   return [randomExpression, correctAnswers];
 }
 
-const beginningBraincalc = () => {
-  foundationGames(gistGames, brainCalc);
-};
+const beginningBraincalc = () => foundationGames(gistGames, brainCalc);
 
 export { brainCalc };
 export default beginningBraincalc;

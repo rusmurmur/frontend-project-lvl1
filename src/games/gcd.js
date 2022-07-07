@@ -21,9 +21,7 @@ function brainGcd() {
   return [randomExpression, correctAnswers];
 }
 
-const beginningBrainGcd = () => {
-  foundationGames(gistGames, brainGcd);
-};
+const beginningBrainGcd = () => foundationGames(gistGames, brainGcd);
 
 export { brainGcd };
 export default beginningBrainGcd;

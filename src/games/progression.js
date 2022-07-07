@@ -26,9 +26,7 @@ function brainProgression() {
   return [question, correctAnswer];
 }
 
-const beginningBrainProgression = () => {
-  foundationGames(gistGames, brainProgression);
-};
+const beginningBrainProgression = () => foundationGames(gistGames, brainProgression);
 
 export { brainProgression };
 export default beginningBrainProgression;
