@@ -1,5 +1,10 @@
 function takeRandomNum(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  const minNum = Math.ceil(min);
+  const maxNum = Math.floor(max);
+
+  return Math.floor(Math.random() * (maxNum - minNum + 1) + minNum);
 }
 
 export default takeRandomNum;
+
+// return Math.floor(Math.random() * (max - min + 1)) + min;
