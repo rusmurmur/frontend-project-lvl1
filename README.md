@@ -21,11 +21,6 @@
 3. Для установки игры вводим `make install`
 4. Запускаем игры с помощью команд, указанных **_в списке игр_**.
 
-### Hexlet tests and linter status:
-
-[![Actions Status](https://github.com/rusmurs/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/rusmurs/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/cdce4f5fb9bd2e662bf0/maintainability)](https://codeclimate.com/github/rusmurs/frontend-project-lvl1/maintainability)
-
 ## Демонстрационный запуск игр
 
 ### brain-even
@@ -47,3 +42,8 @@
 ### brain-prime
 
 [![asciicast](https://asciinema.org/a/ISMK31q6ZcAqaCXdRY8Op1dJi.svg)](https://asciinema.org/a/ISMK31q6ZcAqaCXdRY8Op1dJi)
+
+### Hexlet tests and linter status:
+
+[![Actions Status](https://github.com/rusmurs/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/rusmurs/frontend-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cdce4f5fb9bd2e662bf0/maintainability)](https://codeclimate.com/github/rusmurs/frontend-project-lvl1/maintainability)
