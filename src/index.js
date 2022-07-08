@@ -8,7 +8,7 @@ const foundationGames = (gistGames, questionsAndAnswers) => {
   console.log(gistGames);
 
   const counterRound = 3;
-  for (let i = 1; i <= counterRound; i += 1) {
+  for (let i = 0; i <= counterRound; i += 1) {
     const [questions, correctAnswers] = questionsAndAnswers();
     console.log(`Question: ${questions}`);
     const yourAnswer = readlineSync.question('Your answer: ');
