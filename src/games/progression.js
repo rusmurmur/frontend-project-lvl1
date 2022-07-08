@@ -3,7 +3,7 @@ import takeRandomNum from '../random.js';
 
 const gistGames = 'What number is missing in the progression?';
 
-const сonstructioProgression = (startElement, step, progressionLength) => {
+const getProgression = (startElement, step, progressionLength) => {
   const progression = [];
   for (let i = 0; i < progressionLength; i += 1) {
     progression.push(startElement + step * i);
@@ -17,7 +17,7 @@ export function brainProgression() {
   const progressionLength = takeRandomNum(5, 10);
   const index = takeRandomNum(0, progressionLength - 1);
 
-  const progression = сonstructioProgression(startElement, step, progressionLength);
+  const progression = getProgression(startElement, step, progressionLength);
 
   const correctAnswer = (progression[index]).toString();
   progression[index] = '..';
