@@ -1,6 +1,4 @@
-### Проект
-
-# Игры разума :game_die:
+### Проект # Игры разума :game_die:
 
 ## Описание
 
@@ -14,17 +12,19 @@
 4. `brain-progression` **Арифметическая прогрессия**
 5. `brain-prime` **Простое число**
 
-## Инструкция по установке:
+## Инструкция по установке и запуску игр:
 
 1. Клонируем репозиторий `git clone git@github.com:rusmurs/frontend-project-lvl1.git`
-2. Переходим в деректорию `cd frontend-project-lvl1`
+2. Переходим в директорию `cd frontend-project-lvl1`
 3. Для установки игры вводим `make install`
-4. Запускаем игры с помощью команд, указанных в _списке игр_.
+4. Запускаем игры с помощью команд, указанных **_в списке игр_**.
 
 ### Hexlet tests and linter status:
 
 [![Actions Status](https://github.com/rusmurs/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/rusmurs/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/cdce4f5fb9bd2e662bf0/maintainability)](https://codeclimate.com/github/rusmurs/frontend-project-lvl1/maintainability)
+
+## Демонстрационный запуск игр
 
 ### brain-even
 
