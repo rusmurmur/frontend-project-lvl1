@@ -10,7 +10,7 @@
 
 1. `brain-even` **Проверка на четность**
 2. `brain-calc` **Калькулятор**
-3. `brain-gcd.` **Наибольший общий делитель**
+3. `brain-gcd` **Наибольший общий делитель**
 4. `brain-progression` **Арифметическая прогрессия**
 5. `brain-prime` **Простое число**
 
@@ -19,6 +19,7 @@
 1. Клонируем репозиторий `git clone git@github.com:rusmurs/frontend-project-lvl1.git`
 2. Переходим в деректорию `cd frontend-project-lvl1`
 3. Для установки игры вводим `make install`
+4. Запускаем игры с помощью команд, указанных в _списке игр_.
 
 ### Hexlet tests and linter status:
 
