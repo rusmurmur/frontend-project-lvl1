@@ -11,7 +11,7 @@ const сonstructioProgression = (startElement, step, progressionLength) => {
   return progression;
 };
 
-function brainProgression() {
+export function brainProgression() {
   const startElement = takeRandomNum(1, 20);
   const step = takeRandomNum(1, 20);
   const progressionLength = takeRandomNum(5, 10);
@@ -28,5 +28,4 @@ function brainProgression() {
 
 const beginningBrainProgression = () => foundationGames(gistGames, brainProgression);
 
-export { brainProgression };
 export default beginningBrainProgression;

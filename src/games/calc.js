@@ -21,7 +21,7 @@ const сonstructionCalc = (operand1, randomOperator, operand2) => {
   return counter;
 };
 
-function brainCalc() {
+export function brainCalc() {
   const operand1 = takeRandomNum(0, 10);
   const operand2 = takeRandomNum(0, 10);
   const operators = ['+', '-', '*'];
@@ -34,5 +34,4 @@ function brainCalc() {
 
 const beginningBraincalc = () => foundationGames(gistGames, brainCalc);
 
-export { brainCalc };
 export default beginningBraincalc;

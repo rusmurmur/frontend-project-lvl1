@@ -14,7 +14,7 @@ const сonstructioPrime = (randomNumber) => {
   return randomNumber > 1;
 };
 
-function brainPrime() {
+export function brainPrime() {
   const randomNumber = takeRandomNum(2, 20);
   const questionsAndAnswers = сonstructioPrime(randomNumber) ? 'yes' : 'no';
   return [randomNumber, questionsAndAnswers];
@@ -22,5 +22,4 @@ function brainPrime() {
 
 const beginningBrainPrime = () => foundationGames(gistGames, brainPrime);
 
-export { brainPrime };
 export default beginningBrainPrime;
