@@ -6,5 +6,3 @@ function takeRandomNum(min, max) {
 }
 
 export default takeRandomNum;
-
-// return Math.floor(Math.random() * (max - min + 1)) + min;
