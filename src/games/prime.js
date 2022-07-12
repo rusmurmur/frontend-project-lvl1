@@ -16,8 +16,8 @@ const isPrime = (randomNumber) => {
 
 export function brainPrime() {
   const randomNumber = takeRandomNum(2, 20);
-  const questionsAndAnswers = isPrime(randomNumber) ? 'yes' : 'no';
-  return [randomNumber, questionsAndAnswers];
+  const question = isPrime(randomNumber) ? 'yes' : 'no';
+  return [randomNumber, question];
 }
 
 const beginningBrainPrime = () => foundationGames(gistGames, brainPrime);

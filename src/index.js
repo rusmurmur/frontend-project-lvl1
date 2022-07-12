@@ -1,15 +1,15 @@
 import readlineSync from 'readline-sync';
 
-const foundationGames = (gistGames, questionsAndAnswers) => {
+const foundationGames = (gistGame, askQuestionAndGetAnswer) => {
   console.log('Welcome to the Brain Games!');
   const nameUser = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameUser}!`);
 
-  console.log(gistGames);
+  console.log(gistGame);
 
   const counterRound = 3;
   for (let i = 0; i < counterRound; i += 1) {
-    const [questions, correctAnswers] = questionsAndAnswers();
+    const [questions, correctAnswers] = askQuestionAndGetAnswer();
     console.log(`Question: ${questions}`);
     const yourAnswer = readlineSync.question('Your answer: ');
 
